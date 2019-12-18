@@ -7,34 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEDE8F9723A15BC300E4E815 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE8F9623A15BC300E4E815 /* DataManager.swift */; };
+		BEDE8F9B23A15DF100E4E815 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE8F9A23A15DF100E4E815 /* MapView.swift */; };
+		E512DE3123A465130087EF1C /* MKAnnotationView+Multiline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512DE3023A465130087EF1C /* MKAnnotationView+Multiline.swift */; };
+		E512DE3923A8567E0087EF1C /* QuickFormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E512DE3823A8567E0087EF1C /* QuickFormsView.swift */; };
+		E539B1AE23A2D3D300AAE33F /* Campground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539B1AD23A2D3D300AAE33F /* Campground.swift */; };
+		E539B1B023A2D5F500AAE33F /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539B1AF23A2D5F500AAE33F /* Errors.swift */; };
+		E539B1B223A2D7C100AAE33F /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539B1B123A2D7C100AAE33F /* Camper.swift */; };
+		E539B1B623A2DCB000AAE33F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539B1B523A2DCB000AAE33F /* API.swift */; };
+		E539B1B823A2DCEC00AAE33F /* CampgroundAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539B1B723A2DCEC00AAE33F /* CampgroundAPI.swift */; };
+		E539B1BF23A2E0D300AAE33F /* Campground.json in Resources */ = {isa = PBXBuildFile; fileRef = E539B1BE23A2E0D300AAE33F /* Campground.json */; };
+		E539B1C323A2F6DA00AAE33F /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539B1C223A2F6DA00AAE33F /* Names.swift */; };
+		E539B1CB23A4214D00AAE33F /* GroupAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539B1CA23A4214D00AAE33F /* GroupAnnotationView.swift */; };
 		E5AC0C5423A0059500802A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC0C5323A0059500802A6E /* AppDelegate.swift */; };
 		E5AC0C5623A0059500802A6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC0C5523A0059500802A6E /* SceneDelegate.swift */; };
 		E5AC0C5823A0059500802A6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC0C5723A0059500802A6E /* ContentView.swift */; };
 		E5AC0C5A23A0059800802A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AC0C5923A0059800802A6E /* Assets.xcassets */; };
 		E5AC0C5D23A0059800802A6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AC0C5C23A0059800802A6E /* Preview Assets.xcassets */; };
 		E5AC0C6023A0059800802A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AC0C5E23A0059800802A6E /* LaunchScreen.storyboard */; };
-		E5AC0C6B23A0059900802A6E /* GlacierNPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC0C6A23A0059900802A6E /* GlacierNPTests.swift */; };
-		E5AC0C7623A0059900802A6E /* GlacierNPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC0C7523A0059900802A6E /* GlacierNPUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E5AC0C6723A0059900802A6E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E5AC0C4823A0059500802A6E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5AC0C4F23A0059500802A6E;
-			remoteInfo = GlacierNP;
-		};
-		E5AC0C7223A0059900802A6E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E5AC0C4823A0059500802A6E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5AC0C4F23A0059500802A6E;
-			remoteInfo = GlacierNP;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		BEDE8F9623A15BC300E4E815 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BEDE8F9A23A15DF100E4E815 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E512DE3023A465130087EF1C /* MKAnnotationView+Multiline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKAnnotationView+Multiline.swift"; sourceTree = "<group>"; };
+		E512DE3823A8567E0087EF1C /* QuickFormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickFormsView.swift; sourceTree = "<group>"; };
+		E539B1AD23A2D3D300AAE33F /* Campground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campground.swift; sourceTree = "<group>"; };
+		E539B1AF23A2D5F500AAE33F /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		E539B1B123A2D7C100AAE33F /* Camper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camper.swift; sourceTree = "<group>"; };
+		E539B1B523A2DCB000AAE33F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E539B1B723A2DCEC00AAE33F /* CampgroundAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampgroundAPI.swift; sourceTree = "<group>"; };
+		E539B1BE23A2E0D300AAE33F /* Campground.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Campground.json; sourceTree = "<group>"; };
+		E539B1C223A2F6DA00AAE33F /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
+		E539B1CA23A4214D00AAE33F /* GroupAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnnotationView.swift; sourceTree = "<group>"; };
 		E5AC0C5023A0059500802A6E /* GlacierNP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlacierNP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5AC0C5323A0059500802A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5AC0C5523A0059500802A6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,12 +48,6 @@
 		E5AC0C5C23A0059800802A6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5AC0C5F23A0059800802A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5AC0C6123A0059800802A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5AC0C6623A0059900802A6E /* GlacierNPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlacierNPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5AC0C6A23A0059900802A6E /* GlacierNPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlacierNPTests.swift; sourceTree = "<group>"; };
-		E5AC0C6C23A0059900802A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5AC0C7123A0059900802A6E /* GlacierNPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlacierNPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5AC0C7523A0059900802A6E /* GlacierNPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlacierNPUITests.swift; sourceTree = "<group>"; };
-		E5AC0C7723A0059900802A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,29 +58,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5AC0C6323A0059900802A6E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5AC0C6E23A0059900802A6E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEDE8F9523A15B9900E4E815 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E539B1AD23A2D3D300AAE33F /* Campground.swift */,
+				E539B1B123A2D7C100AAE33F /* Camper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEDE8F9823A15D1500E4E815 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC0C5323A0059500802A6E /* AppDelegate.swift */,
+				E5AC0C5523A0059500802A6E /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BEDE8F9923A15D2D00E4E815 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC0C5723A0059500802A6E /* ContentView.swift */,
+				BEDE8F9A23A15DF100E4E815 /* MapView.swift */,
+				E539B1CA23A4214D00AAE33F /* GroupAnnotationView.swift */,
+				E512DE3823A8567E0087EF1C /* QuickFormsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E539B1A923A1AB3B00AAE33F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E539B1AF23A2D5F500AAE33F /* Errors.swift */,
+				E512DE3023A465130087EF1C /* MKAnnotationView+Multiline.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E539B1AC23A2D37700AAE33F /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				E539B1B523A2DCB000AAE33F /* API.swift */,
+				E539B1B723A2DCEC00AAE33F /* CampgroundAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		E539B1BB23A2DD9F00AAE33F /* Enviroment */ = {
+			isa = PBXGroup;
+			children = (
+				BEDE8F9623A15BC300E4E815 /* DataManager.swift */,
+			);
+			path = Enviroment;
+			sourceTree = "<group>";
+		};
+		E539B1BC23A2DFAA00AAE33F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC0C5923A0059800802A6E /* Assets.xcassets */,
+				E539B1BE23A2E0D300AAE33F /* Campground.json */,
+				E539B1C223A2F6DA00AAE33F /* Names.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E5AC0C4723A0059500802A6E = {
 			isa = PBXGroup;
 			children = (
 				E5AC0C5223A0059500802A6E /* GlacierNP */,
-				E5AC0C6923A0059900802A6E /* GlacierNPTests */,
-				E5AC0C7423A0059900802A6E /* GlacierNPUITests */,
 				E5AC0C5123A0059500802A6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				E5AC0C5023A0059500802A6E /* GlacierNP.app */,
-				E5AC0C6623A0059900802A6E /* GlacierNPTests.xctest */,
-				E5AC0C7123A0059900802A6E /* GlacierNPUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,12 +145,15 @@
 		E5AC0C5223A0059500802A6E /* GlacierNP */ = {
 			isa = PBXGroup;
 			children = (
-				E5AC0C5323A0059500802A6E /* AppDelegate.swift */,
-				E5AC0C5523A0059500802A6E /* SceneDelegate.swift */,
-				E5AC0C5723A0059500802A6E /* ContentView.swift */,
-				E5AC0C5923A0059800802A6E /* Assets.xcassets */,
 				E5AC0C5E23A0059800802A6E /* LaunchScreen.storyboard */,
 				E5AC0C6123A0059800802A6E /* Info.plist */,
+				BEDE8F9823A15D1500E4E815 /* Base */,
+				E539B1BB23A2DD9F00AAE33F /* Enviroment */,
+				E539B1AC23A2D37700AAE33F /* APIs */,
+				BEDE8F9523A15B9900E4E815 /* Model */,
+				BEDE8F9923A15D2D00E4E815 /* Views */,
+				E539B1A923A1AB3B00AAE33F /* Helpers */,
+				E539B1BC23A2DFAA00AAE33F /* Resources */,
 				E5AC0C5B23A0059800802A6E /* Preview Content */,
 			);
 			path = GlacierNP;
@@ -116,24 +165,6 @@
 				E5AC0C5C23A0059800802A6E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E5AC0C6923A0059900802A6E /* GlacierNPTests */ = {
-			isa = PBXGroup;
-			children = (
-				E5AC0C6A23A0059900802A6E /* GlacierNPTests.swift */,
-				E5AC0C6C23A0059900802A6E /* Info.plist */,
-			);
-			path = GlacierNPTests;
-			sourceTree = "<group>";
-		};
-		E5AC0C7423A0059900802A6E /* GlacierNPUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E5AC0C7523A0059900802A6E /* GlacierNPUITests.swift */,
-				E5AC0C7723A0059900802A6E /* Info.plist */,
-			);
-			path = GlacierNPUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,42 +187,6 @@
 			productReference = E5AC0C5023A0059500802A6E /* GlacierNP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5AC0C6523A0059900802A6E /* GlacierNPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5AC0C7D23A0059900802A6E /* Build configuration list for PBXNativeTarget "GlacierNPTests" */;
-			buildPhases = (
-				E5AC0C6223A0059900802A6E /* Sources */,
-				E5AC0C6323A0059900802A6E /* Frameworks */,
-				E5AC0C6423A0059900802A6E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5AC0C6823A0059900802A6E /* PBXTargetDependency */,
-			);
-			name = GlacierNPTests;
-			productName = GlacierNPTests;
-			productReference = E5AC0C6623A0059900802A6E /* GlacierNPTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E5AC0C7023A0059900802A6E /* GlacierNPUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5AC0C8023A0059900802A6E /* Build configuration list for PBXNativeTarget "GlacierNPUITests" */;
-			buildPhases = (
-				E5AC0C6D23A0059900802A6E /* Sources */,
-				E5AC0C6E23A0059900802A6E /* Frameworks */,
-				E5AC0C6F23A0059900802A6E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E5AC0C7323A0059900802A6E /* PBXTargetDependency */,
-			);
-			name = GlacierNPUITests;
-			productName = GlacierNPUITests;
-			productReference = E5AC0C7123A0059900802A6E /* GlacierNPUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,14 +199,6 @@
 				TargetAttributes = {
 					E5AC0C4F23A0059500802A6E = {
 						CreatedOnToolsVersion = 11.2.1;
-					};
-					E5AC0C6523A0059900802A6E = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = E5AC0C4F23A0059500802A6E;
-					};
-					E5AC0C7023A0059900802A6E = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = E5AC0C4F23A0059500802A6E;
 					};
 				};
 			};
@@ -229,8 +216,6 @@
 			projectRoot = "";
 			targets = (
 				E5AC0C4F23A0059500802A6E /* GlacierNP */,
-				E5AC0C6523A0059900802A6E /* GlacierNPTests */,
-				E5AC0C7023A0059900802A6E /* GlacierNPUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,20 +228,7 @@
 				E5AC0C6023A0059800802A6E /* LaunchScreen.storyboard in Resources */,
 				E5AC0C5D23A0059800802A6E /* Preview Assets.xcassets in Resources */,
 				E5AC0C5A23A0059800802A6E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5AC0C6423A0059900802A6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5AC0C6F23A0059900802A6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E539B1BF23A2E0D300AAE33F /* Campground.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,40 +241,22 @@
 			files = (
 				E5AC0C5423A0059500802A6E /* AppDelegate.swift in Sources */,
 				E5AC0C5623A0059500802A6E /* SceneDelegate.swift in Sources */,
+				BEDE8F9B23A15DF100E4E815 /* MapView.swift in Sources */,
+				E539B1CB23A4214D00AAE33F /* GroupAnnotationView.swift in Sources */,
+				E539B1AE23A2D3D300AAE33F /* Campground.swift in Sources */,
+				E512DE3123A465130087EF1C /* MKAnnotationView+Multiline.swift in Sources */,
+				E512DE3923A8567E0087EF1C /* QuickFormsView.swift in Sources */,
 				E5AC0C5823A0059500802A6E /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5AC0C6223A0059900802A6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5AC0C6B23A0059900802A6E /* GlacierNPTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5AC0C6D23A0059900802A6E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5AC0C7623A0059900802A6E /* GlacierNPUITests.swift in Sources */,
+				BEDE8F9723A15BC300E4E815 /* DataManager.swift in Sources */,
+				E539B1C323A2F6DA00AAE33F /* Names.swift in Sources */,
+				E539B1B823A2DCEC00AAE33F /* CampgroundAPI.swift in Sources */,
+				E539B1B023A2D5F500AAE33F /* Errors.swift in Sources */,
+				E539B1B623A2DCB000AAE33F /* API.swift in Sources */,
+				E539B1B223A2D7C100AAE33F /* Camper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E5AC0C6823A0059900802A6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E5AC0C4F23A0059500802A6E /* GlacierNP */;
-			targetProxy = E5AC0C6723A0059900802A6E /* PBXContainerItemProxy */;
-		};
-		E5AC0C7323A0059900802A6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E5AC0C4F23A0059500802A6E /* GlacierNP */;
-			targetProxy = E5AC0C7223A0059900802A6E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E5AC0C5E23A0059800802A6E /* LaunchScreen.storyboard */ = {
@@ -470,90 +424,6 @@
 			};
 			name = Release;
 		};
-		E5AC0C7E23A0059900802A6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWZRQH3NLH;
-				INFOPLIST_FILE = GlacierNPTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.torimaru.GlacierNPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlacierNP.app/GlacierNP";
-			};
-			name = Debug;
-		};
-		E5AC0C7F23A0059900802A6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWZRQH3NLH;
-				INFOPLIST_FILE = GlacierNPTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.torimaru.GlacierNPTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlacierNP.app/GlacierNP";
-			};
-			name = Release;
-		};
-		E5AC0C8123A0059900802A6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWZRQH3NLH;
-				INFOPLIST_FILE = GlacierNPUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.torimaru.GlacierNPUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GlacierNP;
-			};
-			name = Debug;
-		};
-		E5AC0C8223A0059900802A6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWZRQH3NLH;
-				INFOPLIST_FILE = GlacierNPUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.torimaru.GlacierNPUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GlacierNP;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,24 +441,6 @@
 			buildConfigurations = (
 				E5AC0C7B23A0059900802A6E /* Debug */,
 				E5AC0C7C23A0059900802A6E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5AC0C7D23A0059900802A6E /* Build configuration list for PBXNativeTarget "GlacierNPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5AC0C7E23A0059900802A6E /* Debug */,
-				E5AC0C7F23A0059900802A6E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5AC0C8023A0059900802A6E /* Build configuration list for PBXNativeTarget "GlacierNPUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5AC0C8123A0059900802A6E /* Debug */,
-				E5AC0C8223A0059900802A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
