@@ -1,0 +1,70 @@
+{
+    "name": "Campground",
+    "campgrounds": [
+        {
+            "id": "qwerty1",
+            "name": "Alpha",
+            "latitude": 48.7029423,
+            "longitude": -113.8867235,
+            "descript": "Arrow Lake Campground",
+            "open": true
+        },
+        {
+            "id": "qwerty2",
+            "name": "Bravo",
+            "latitude":  48.6780122,
+            "longitude":  -113.8186598,
+            "descript": "Avalanche Campground",
+            "open": true
+        },
+        {
+            "id": "qwerty3",
+            "name": "Charlie",
+            "latitude":  48.6259311,
+            "longitude":  -113.8042402,
+            "descript": "Snyder Lake Campground",
+            "open": true
+        },
+        {
+            "id": "qwerty4",
+            "name": "Delta",
+            "latitude":  48.6063832,
+            "longitude":  -113.8855648,
+            "descript": "Sprague Creek Campground",
+            "open": true
+        },
+        {
+            "id": "qwerty5",
+            "name": "Echo",
+            "latitude": 48.5477794,
+            "longitude":  -113.9852571,
+            "descript": "Fish Creek Campground",
+            "open": true
+        },
+        {
+            "id": "qwerty6",
+            "name": "Foxtrot",
+            "latitude":  48.5266098,
+            "longitude":  -113.9844847,
+            "descript": "Apgar Campground",
+            "open": false
+        },
+        {
+            "id": "qwerty7",
+            "name": "Golf",
+            "latitude":  48.4816268,
+            "longitude":  -113.9965868,
+            "descript": "Glacier Campground",
+            "open": true
+        },
+        {
+            "id": "qwerty8",
+            "name": "Hotel",
+            "latitude":  48.6587896,
+            "longitude":  -114.4062677,
+            "descript": "Lake McDonald Ranger Station",
+            "open": true
+        }
+    ]
+}
+
